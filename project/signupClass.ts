@@ -39,5 +39,6 @@ export class signUp {
 
   async logout() {
     await this.page.locator("#logout").click();
+    return this;
   }
 }
